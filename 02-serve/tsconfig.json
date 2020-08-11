@@ -1,0 +1,259 @@
+/*
+db.personnels.insert({
+  "status":1,
+  "categorys":[
+    {"key":"1","name":"财务"},
+    {"key":"2","name":"行政"},
+    {"key":"3","name":"人力"},
+    {"key":"4","name":"市场"},
+    {"key":"5","name":"研发"},
+    {"key":"6","name":"话务"},
+    {"key":"7","name":"培训"},
+    {"key":"8","name":"师资"}
+  ]
+})
+
+
+"sub":[
+{"key":"0","name":"小明","phone":"18632526624"},
+{"key":"1","name":"小强","phone":"18632526624"},
+{"key":"2","name":"小红","phone":"18632526624"},
+{"key":"3","name":"小丘","phone":"18632526624"},
+{"key":"4","name":"小豪","phone":"18632526624"},
+{"key":"5","name":"小罗","phone":"18632526624"}]
+
+,"sub":[
+{"key":"0","name":"小A","phone":"18632526624"},
+{"key":"1","name":"小B","phone":"18632526624"},
+{"key":"2","name":"小C","phone":"18632526624"},
+{"key":"3","name":"小D","phone":"18632526624"},
+{"key":"4","name":"小E","phone":"18632526624"},
+{"key":"5","name":"小D","phone":"18632526624"}]
+
+,"sub":[
+{"key":"0","name":"小E","phone":"18632526624"},
+{"key":"1","name":"小F","phone":"18632526624"},
+{"key":"2","name":"小G","phone":"18632526624"},
+{"key":"3","name":"小H","phone":"18632526624"},
+{"key":"4","name":"小I","phone":"18632526624"},
+{"key":"5","name":"小G","phone":"18632526624"}]*/
+
+/*db.dailys.insert({
+    "title":"第一月月报",
+    "date":"2020-01-03",
+    "summary":"第一月总结内容",
+    "plan":"下一月的计划",
+    "feel":"本月的工作感受"
+})*/
+/*
+db.dailys.insert({
+  "title":"第二月月报",
+  "date":"2020-02-25",
+  "summary":"第二月总结内容",
+  "plan":"下一月的计划",
+  "feel":"本月的工作感受"
+})*/
+
+/*db.pictures.insert({
+  "imgUrl":"D:\课程文件\第四阶段\new\day11\server\routes/../public/images/20200109170231.jpg"
+})*/
+
+
+/*
+db.manages.insert({
+  "menus": [
+    "/home",
+    "/attence",
+    "/daily",
+    "/information",
+    "/personnel",
+    "/life",
+    "/performance",
+    "/go"
+  ],
+  "name": "测试",
+  "create_time": 1554639521749,
+  "__v": 0,
+  "auth_time": 1558679920395,
+  "auth_name": "test007"
+})*/
+
+/*
+db.manages.insert({
+  "menus": [
+    "/home",
+    "/attence",
+    "/daily",
+    "/information",
+    "/manage",
+    "/personnel",
+    "/life",
+    "/performance",
+    "/go"
+  ],
+  "name": "经理",
+  "create_time": 1554639536419,
+  "__v": 0,
+  "auth_time": 1558506990798,
+  "auth_name": "test008"
+})*/
+
+/*db.manages.insert({
+  "menus": [
+    "/home",
+    "/attence",
+    "/daily",
+    "/information",
+    "/personnel",
+    "/life"
+  ],
+  "name": "角色1",
+  "create_time": 1554639552758,
+  "__v": 0,
+  "auth_time": 1557630307021,
+  "auth_name": "admin"
+})*/
+
+db.users.insert({
+  "username": "ceshi",
+  "password": "123123",
+  "phone": "123412342134",
+  "email": "ceshi@qq.com",
+  "role_id": "5e18441f7d522474bbe1fdfd",
+  "create_time": 1555061581734,
+  "role":{"menus":[]},
+  "__v": 0
+})
+
+db.users.insert({
+  "username": "jingli",
+  "password": "123123",
+  "phone": "13623362563",
+  "email": "jingli@qq.com",
+  "role_id": "5e1844297d522474bbe1fdfe",
+  "create_time": 1555061609666,
+  "role":{"menus":[]},
+  "__v": 0
+})
+
+db.users.insert({
+  "username": "admin",
+  "password": "123123",
+  "phone": "13623362563",
+  "email": "admin@qq.com",
+  "role_id": "5e1d7b5afcfaf01258aa2d6c",
+  "create_time": 1555061609666,
+  "role":{"menus":[]},
+  "__v": 0
+})
+
+/*
+db.users.insert({
+  "status": 1,
+  "data": {
+    "users": [
+      {
+        "_id": "5cb05b4db6ed8c44f42c9af2",
+        "username": "ceshi",
+        "password": "123123",
+        "phone": "123412342134",
+        "email": "ceshi@qq.com",
+        "role_id": "5e18441f7d522474bbe1fdfd",
+        "create_time": 1555061581734,
+        "__v": 0
+      },
+      {
+        "_id": "5cb05b4db6ed8c44f42d6t423",
+        "username": "jingli",
+        "password": "123123",
+        "phone": "13623362563",
+        "email": "jingli@qq.com",
+        "role_id": "5e1844297d522474bbe1fdfe",
+        "create_time": 1555061609666,
+        "__v": 0
+      },
+      {
+        "_id": "5cb05b4db6ed8c44f42f62f7",
+        "username": "admin",
+        "password": "123123",
+        "phone": "13623362563",
+        "email": "admin@qq.com",
+        "role_id": "5e1d7b5afcfaf01258aa2d6c",
+        "create_time": 1555061609666,
+        "__v": 0
+      }
+    ],
+    "roles": [
+      {
+        "menus": [
+          "/home",
+          "/attence",
+          "/daily",
+          "/personnel",
+          "/life"
+        ],
+        "_id": "5e18441f7d522474bbe1fdfd",
+        "name": "测试",
+        "create_time": 1554639521749,
+        "__v": 0,
+        "auth_time": 1555145863489,
+        "auth_name": "admin"
+      },
+      {
+        "menus": [
+          "/home",
+          "/attence",
+          "/daily",
+          "/manage",
+          "/personnel",
+          "/life",
+          "/performance",
+          "/go"
+        ],
+        "_id": "5e1d7b5afcfaf01258aa2d6c",
+        "name": "经理",
+        "create_time": 1554639521749,
+        "__v": 0,
+        "auth_time": 1555145863489,
+        "auth_name": "admin"
+      },
+      {
+        "menus": [
+          "/home",
+          "/attence",
+          "/daily",
+          "/information",
+          "/manage",
+          "/personnel",
+          "/life",
+          "/performance",
+          "/go"
+        ],
+        "_id": "5e1d7b5afcfaf01258aa2d6c",
+        "name": "admin",
+        "create_time": 1554639521749,
+        "__v": 0,
+        "auth_time": 1555145863489,
+        "auth_name": "admin"
+      }
+    ]
+  }
+})*/
+
+/*db.performances.insert({
+  dataX:["一月","二月","三月","四月","五月","六月","七月"],
+  dataNumber:['1.3', '1.0', '1.1', '1.5', '1.2', '1.3', '1.2']
+})
+
+db.gos.insert({
+  "start": "京忱润业",
+  "end": "故宫",
+  "time": 1555061581734
+})
+*/
+
+
+db.attences.insert({
+  "date":"2020-01-2",
+  "state":1,
+})
